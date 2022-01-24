@@ -1,7 +1,9 @@
 import React from 'react';
-
- function App() {
-  return <div>app</div>;
+import Another from './Another';
+function App() {
+  return <div>
+    <Another name='组件' />
+  </div>;
 }
 
 export default App
